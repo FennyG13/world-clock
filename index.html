@@ -9,15 +9,36 @@
     <title>🌎 World Clock Project 🕘</title>
   </head>
   <body>
-    <h1>World Clock</h1>
-    <footer>
-      <p>Coded by 👩🏻‍💻 <a href="https://github.com/FennyG13" target="_blank">Fenny Gao</a></p>
-      <p>
-        This project is open-sourced on <a href="https://github.com/FennyG13/world-clock">GitHub</a> and hosted on
-        <a href="https://world-clock-timzone.netlify.app/" target="_blank">Netlify</a>
-        <br />© 2024
-      </p>
-    </footer>
+    <main class="clock-container">
+      <h1>World Clock</h1>
+      <form>
+        <select class="cities">
+          <option value="">Select a city...</option>
+          <option>My current city 📍</option>
+          <option>Fuzhou</option>
+          <option>Geneva</option>
+          <option>Milan</option>
+        </select>
+      </form>
+      <div class="default-cities">
+        <h2>Boston 🇺🇸</h2>
+        <div class="date">February 11, 2024</div>
+        <div class="time">1:04 PM</div>
+      </div>
+      <div class="default-cities">
+        <h2>Fuzhou 🇨🇳</h2>
+        <div class="date">February 12, 2024</div>
+        <div class="time">2:05 AM</div>
+      </div>
+      <footer>
+        <p>Coded by 👩🏻‍💻 <a href="https://github.com/FennyG13" target="_blank">Fenny Gao</a></p>
+        <p>
+          This project is open-sourced on <a href="https://github.com/FennyG13/world-clock">GitHub</a> and hosted on
+          <a href="https://world-clock-timzone.netlify.app/" target="_blank">Netlify</a>
+          <br />© 2024
+        </p>
+      </footer>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
