@@ -9,7 +9,7 @@
     <title>🌎 World Clock Project 🕘</title>
   </head>
   <body>
-    <main class="clock-container">
+    <main class="world-clock-app">
       <h1>World Clock</h1>
       <form>
         <select class="cities">
@@ -21,24 +21,35 @@
         </select>
       </form>
       <div class="default-cities">
-        <h2>Boston 🇺🇸</h2>
-        <div class="date">February 11, 2024</div>
-        <div class="time">1:04 PM</div>
+        <div>
+          <h2>Boston <span class="icon">🇺🇸</span></h2>
+          <div class="date">February 11, 2024</div>
+        </div>
+        <div class="time">1:55 <span class="time-unit">PM</span></div>
       </div>
       <div class="default-cities">
-        <h2>Fuzhou 🇨🇳</h2>
-        <div class="date">February 12, 2024</div>
-        <div class="time">2:05 AM</div>
+        <div>
+          <h2>Fuzhou <span class="icon">🇨🇳</span></h2>
+          <div class="date">February 12, 2024</div>
+        </div>
+        <div class="time">2:55 <span class="time-unit">AM</span></div>
       </div>
-      <footer>
-        <p>Coded by 👩🏻‍💻 <a href="https://github.com/FennyG13" target="_blank">Fenny Gao</a></p>
-        <p>
-          This project is open-sourced on <a href="https://github.com/FennyG13/world-clock">GitHub</a> and hosted on
-          <a href="https://world-clock-timzone.netlify.app/" target="_blank">Netlify</a>
-          <br />© 2024
-        </p>
-      </footer>
+      <div class="default-cities">
+        <div>
+          <h2>Lisbon <span class="icon">🇵🇹</span></h2>
+          <div class="date">February 11, 2024</div>
+        </div>
+        <div class="time">6:55 <span class="time-unit">PM</span></div>
+      </div>
     </main>
-    <script src="script.js"></script>
+    <footer>
+      <p>Coded by 👩🏻‍💻 <a href="https://github.com/FennyG13" target="_blank">Fenny Gao</a></p>
+      <p>
+        This project is open-sourced on <a href="https://github.com/FennyG13/world-clock">GitHub</a> and hosted on
+        <a href="https://world-clock-timzone.netlify.app/" target="_blank">Netlify</a>
+        <br />© 2024
+      </p>
+    </footer>
+    <!-- <script src="script.js"></script> -->
   </body>
 </html>
