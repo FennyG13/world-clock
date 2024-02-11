@@ -1,11 +1,80 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: purple;
+  background-color: aquamarine;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0;
+  font-family: "Helvetica bold";
+  font-size: 56px;
+}
+
+select {
+  display: block;
+  background-color: #ffffff;
+  border: none;
+  color: #888888;
+  font-size: 18px;
+  padding: 20px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.world-clock-app {
+  max-width: 700px;
+  margin: 60px auto;
+  background: #f9f7fe;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 24px;
+}
+
+.default-cities {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  border-bottom: 1px rgba(0, 0, 0, 0.2) dashed;
+  padding: 30px 0;
+
+  &:last-child {
+    border: none;
+  }
+
+  h2 {
+    margin: 0 0 5px;
+    font-size: 38px;
+  }
+
+  .icon {
+    font-size: 24px;
+    vertical-align: bottom;
+  }
+
+  .date {
+    opacity: 0.5;
+    font-style: italic;
+  }
+
+  .time {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .time-unit {
+    font-size: 24px;
+    color: #f65282;
+    vertical-align: middle;
+  }
 }
 
 footer {
   color: #000;
   text-align: center;
+  margin-top: 10px;
+  padding: 5px;
 
   a {
     color: blue;
