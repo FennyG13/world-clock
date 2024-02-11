@@ -1,9 +1,11 @@
 body {
+  font-family: "Roboto", sans-serif;
   color: purple;
 }
 
 footer {
   color: #000;
+  text-align: center;
 
   a {
     color: blue;
