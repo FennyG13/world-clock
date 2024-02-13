@@ -22,6 +22,12 @@ select {
   border-radius: 6px;
 }
 
+small {
+  font-size: 24px;
+  color: #f65282;
+  vertical-align: middle;
+}
+
 .world-clock-app {
   max-width: 700px;
   margin: 60px auto;
@@ -61,12 +67,6 @@ select {
   .time {
     font-size: 40px;
     font-weight: bold;
-  }
-
-  .time-unit {
-    font-size: 24px;
-    color: #f65282;
-    vertical-align: middle;
   }
 }
 
