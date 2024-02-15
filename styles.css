@@ -4,6 +4,26 @@ body {
   background-size: cover;
 }
 
+button {
+  background: #fff;
+  border: 2px solid #3498db;
+  border-radius: 20px;
+  color: #3498db;
+  display: block;
+  font-size: 14px;
+  margin: 20px auto;
+  margin-top: 60px;
+  padding: 10px 15px;
+  transition: all 150ms ease-in-out;
+
+  &:hover {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
 h1 {
   text-align: center;
   font-weight: bold;
@@ -16,7 +36,7 @@ select {
   background: url(assets/arrows.svg) no-repeat 100% 50%;
   -webkit-appearance: none;
   display: block;
-  background-color: #ffffff;
+  background-color: #fff;
   border: none;
   color: #888888;
   font-size: 18px;
@@ -34,7 +54,7 @@ small {
 
 .world-clock-app {
   max-width: 700px;
-  margin: 50px auto;
+  margin: 25px auto;
   background: #f9f7fe;
   border-radius: 10px;
   padding: 25px;
@@ -95,5 +115,68 @@ footer {
 
   a {
     color: #f65282;
+  }
+}
+
+.dark {
+  background-image: url(assets/globe-dark.png);
+  background-size: cover;
+
+  button {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+
+    &:hover {
+      background-color: #3498db;
+      border-color: #343434;
+      color: #fff;
+    }
+  }
+
+  h1 {
+    color: #f0f8ff;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  a {
+    color: #fbfb9d;
+  }
+
+  select {
+    background-color: #d5d5d7;
+    color: #1d1d1d;
+  }
+
+  small {
+    color: #fbfb9d;
+  }
+
+  .world-clock-app {
+    background-color: #888888;
+  }
+
+  .cities {
+    h2 {
+      color: #f0f8ff;
+    }
+
+    .date {
+      color: #fff;
+      opacity: 0.8;
+    }
+
+    .time {
+      color: #f0f8ff;
+    }
+  }
+
+  .homepage {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
   }
 }
