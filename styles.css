@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/160/original/globe.png?1707789138);
+  background-image: url(assets/globe.png);
   background-size: cover;
 }
 
@@ -13,6 +13,8 @@ h1 {
 }
 
 select {
+  background: url(assets/arrows.svg) no-repeat 100% 50%;
+  -webkit-appearance: none;
   display: block;
   background-color: #ffffff;
   border: none;
@@ -21,6 +23,7 @@ select {
   padding: 20px;
   width: 100%;
   border-radius: 6px;
+  overflow: hidden;
 }
 
 small {
