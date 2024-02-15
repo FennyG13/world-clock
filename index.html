@@ -12,34 +12,36 @@
     <main class="world-clock-app">
       <h1>World Clock</h1>
       <form>
-        <select class="cities">
+        <select class="dropdown-cities">
           <option value="">Select a city...</option>
           <option>My current city 📍</option>
-          <option>Fuzhou</option>
-          <option>Geneva</option>
-          <option>Milan</option>
+          <option value="Indian/Maldives">Maldives</option>
+          <option value="Atlantic/South_Georgia">South Georgia</option>
+          <option value="Europe/Budapest">Budapest</option>
         </select>
       </form>
-      <div class="default-cities" id="boston">
-        <div>
-          <h2>Boston <span class="icon">🇺🇸</span></h2>
-          <div class="date"></div>
+      <div class="default-cities">
+        <div class="cities" id="boston">
+          <div>
+            <h2>Boston <span class="icon">🇺🇸</span></h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
-      <div class="default-cities" id="fuzhou">
-        <div>
-          <h2>Fuzhou <span class="icon">🇨🇳</span></h2>
-          <div class="date"></div>
+        <div class="cities" id="fuzhou">
+          <div>
+            <h2>Fuzhou <span class="icon">🇨🇳</span></h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
-      <div class="default-cities" id="lisbon">
-        <div>
-          <h2>Lisbon <span class="icon">🇵🇹</span></h2>
-          <div class="date"></div>
+        <div class="cities" id="lisbon">
+          <div>
+            <h2>Lisbon <span class="icon">🇵🇹</span></h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
       </div>
     </main>
     <footer>
