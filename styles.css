@@ -160,6 +160,8 @@ footer {
   }
 
   .cities {
+    border-bottom: 1px #f0f8ff dashed;
+
     h2 {
       color: #f0f8ff;
     }
