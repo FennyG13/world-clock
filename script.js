@@ -60,8 +60,7 @@ function changeTheme() {
 let themeButton = document.querySelector("button");
 themeButton.addEventListener("click", changeTheme);
 
-updateTime();
-setInterval(updateTime, 1000);
-
 let selectedCityElement = document.querySelector(".dropdown-cities");
 selectedCityElement.addEventListener("change", updateCity);
+
+setInterval(updateTime, 1000);
